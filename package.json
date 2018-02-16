@@ -1,0 +1,16 @@
+{
+  "name": "bitfinex-margin-funding-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jayvachon",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bitfinex-api-node": "^2.0.0-beta",
+    "lodash": "^4.17.5"
+  }
+}
