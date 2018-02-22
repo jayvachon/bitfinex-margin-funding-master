@@ -5,6 +5,7 @@ const async = require('async');
 const _ = require('lodash');
 const creds = require('../../api-keys/bitfinex');
 const fs = require('fs-extra');
+const path = require('path');
 const REST_URL = 'https://api.bitfinex.com/';
 
 const bfx = new BFX({
@@ -73,7 +74,7 @@ function(err, results) {
 	results.profit = results.balance - 9838;
 	results.fetchDate = Date(Date.now());
 	console.log(results);
-	fs.writeJson('./results.json', results, err => {
+	fs.writeJson(path.resolve(__dirname, 'results.json'), results, err => {
 		if (err) return console.error(err);
 	});
 });

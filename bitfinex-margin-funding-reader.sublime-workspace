@@ -7,6 +7,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1600,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,10 +24,30 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "edi",
+		"height": 165.0,
+		"last_filter": "json",
 		"selected_items":
 		[
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"scope",
+				"Toggle ScopeAlways"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"edi",
 				"Project: Edit Project"
@@ -36,10 +65,6 @@
 				"Set Syntax: Sass"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"eid",
 				"Project: Edit Project"
 			],
@@ -48,7 +73,7 @@
 				"UI: Select Theme"
 			]
 		],
-		"width": 496.0
+		"width": 395.0
 	},
 	"console":
 	{
@@ -72,6 +97,10 @@
 	],
 	"file_history":
 	[
+		"/Users/jay/node/bitfinex-margin-funding-reader/results.json",
+		"/Users/jay/node/democracy-now-downloader/index.js",
+		"/Users/jay/node/bitfinex-margin-funding-reader/.gitignore",
+		"/Users/jay/Library/Application Support/Sublime Text 3/Packages/User/Snippets/log.sublime-snippet",
 		"/Users/jay/go/src/github.com/hakunashida/ushirikina/data.json",
 		"/Users/jay/go/src/github.com/hakunashida/ushirikina/README.md",
 		"/Users/jay/ng1/generic-modal/index.js",
@@ -81,7 +110,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -95,6 +124,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data",
+			"fUSD",
+			"python",
+			"hello",
+			"1995",
+			"null",
+			"fUSD",
+			"tUSDBTC",
+			"ticker",
+			"loans",
+			"balance",
+			"res",
+			"Wallet",
+			"balance",
+			"lodash",
+			"fundingbook",
+			"bfxRest",
+			"apiSecretKey",
+			"apiKey",
+			"json"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -112,8 +161,44 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1595,
+								1504
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 442.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -165,6 +250,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"res",
+				"results.json"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
 			[
 				"data",
 				"data.json"
